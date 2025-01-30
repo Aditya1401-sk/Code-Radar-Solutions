@@ -4,10 +4,10 @@ int main(){
     scanf("%d %d %d",&a,&b,&c);
     d = a+b;
     if (d>c){
-        printf("Valid")
+        printf("Valid");
     }
     else{
-        printf("Invalid")
+        printf("Invalid");
     }
     return 0;
 }
