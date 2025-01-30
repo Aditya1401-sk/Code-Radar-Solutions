@@ -9,4 +9,5 @@ int main()
     else if(islower(a)){
         printf("Lowercase");
     }
+    return 0;
 }
