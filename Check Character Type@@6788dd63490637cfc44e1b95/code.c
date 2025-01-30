@@ -7,10 +7,10 @@ int main()
     if(isalpha(a)){
         a = tolower(a);
         if (a=='a'|| a=='e'|| a=='i'|| a=='o'|| a=='u'){
-            printf("Vowel")
+            printf("Vowel");
         }
         else{
-            printf("Consonant")
+            printf("Consonant");
         }
     }
     else if(isdigit(a)){
