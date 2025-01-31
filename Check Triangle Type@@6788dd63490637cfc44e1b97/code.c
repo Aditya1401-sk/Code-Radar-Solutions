@@ -3,7 +3,7 @@ int main()
 {
     int a,b,c;
     scnaf("%d %d %d",&a,&b,&c);
-    if(a==b==c){
+    if(a==b && b==c){
         printf("Equilateral");
     }
     else if(a==b||b==c||a==c){
