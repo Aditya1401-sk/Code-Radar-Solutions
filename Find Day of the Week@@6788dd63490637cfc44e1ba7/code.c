@@ -29,4 +29,5 @@ int main()
         default:
         printf("Wrong Input");
     }
+    return 0;
 }
