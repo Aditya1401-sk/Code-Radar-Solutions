@@ -3,7 +3,12 @@ int main()
 {
     int a,lsb;
     scanf("%d",&a);
-    lsb = a & 1;
-    printf("%d",lsb);
+    if (lsb = a & 1){
+        printf("Set ");
+    }
+    else if(lsb = a & 0){
+        printf("Not Set")
+    }
+    
    
 }
