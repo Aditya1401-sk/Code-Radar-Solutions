@@ -7,7 +7,7 @@ int main()
         printf("Set ");
     }
     else if(lsb = a & 0){
-        printf("Not Set")
+        printf("Not Set");
     }
     
    
