@@ -6,9 +6,11 @@ int main()
     if (lsb = a & 1){
         printf("Set ");
     }
-    else if(lsb = a & 0){
+    // else if(lsb = a & 0){
+    //     printf("Not Set");
+    // }
+    else{
         printf("Not Set");
     }
-    
    
 }
