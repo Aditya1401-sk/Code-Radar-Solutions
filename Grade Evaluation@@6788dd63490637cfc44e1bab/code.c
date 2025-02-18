@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
     char a;
@@ -19,7 +19,6 @@ int main()
         printf("Fail");
     }
     else{
-        printf("Invalid grade");
+        printf("Invalid Grade");
     }
-    return 0;
 }
