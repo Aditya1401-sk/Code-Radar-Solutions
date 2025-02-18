@@ -4,19 +4,19 @@ int main()
     int a,b,result;
     char c;
     scanf("%d %d %c",&a,&b,&c);
-    if(char == '+'){
+    if(c == '+'){
         result = a+b;
         printf("%d",result);
     }
-    else if(char == '-'){
+    else if(c == '-'){
         result = a-b;
         printf("%d",result);
     }
-    else if(char == '*'){
+    else if(c == '*'){
         result = a*b;
         printf("%d",result);
     }
-    else if(char == '/'){
+    else if(c == '/'){
         if(b!=0){
             result = a/b
             printf("%d",result);
