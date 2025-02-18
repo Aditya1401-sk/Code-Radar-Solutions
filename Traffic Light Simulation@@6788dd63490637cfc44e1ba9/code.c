@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
     char a;
@@ -15,5 +15,4 @@ int main()
     else{
         printf("Invalid input");
     }
-    return 0;
 }
