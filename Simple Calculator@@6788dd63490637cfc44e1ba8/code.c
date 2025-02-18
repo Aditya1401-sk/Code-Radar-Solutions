@@ -17,10 +17,16 @@ int main()
         printf("%d",result);
     }
     else if(char == '/'){
-        result = a/b;
-        printf("%d",result);
-    }
-    else{
+        if(b!=0){
+            result = a/b
+            printf("%d",result);
+        }
+        else{
         printf("Error");
+        }
+       }
+    else{
+        printf("Invalid");
     }
+    
 }
