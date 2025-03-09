@@ -7,7 +7,7 @@ void main()
             printf("*");
             
             if(j<i){
-                printf(" ")
+                printf(" ");
             }
         }
         printf("\n");
