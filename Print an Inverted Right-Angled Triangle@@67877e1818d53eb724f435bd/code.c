@@ -21,7 +21,7 @@ void main() {
     int i, j, n;
 
     // Get the number of rows for the triangle
-    printf("Enter the number of rows: ");
+    // printf("Enter the number of rows: ");
     scanf("%d", &n);
 
     // Outer loop to control the number of rows
