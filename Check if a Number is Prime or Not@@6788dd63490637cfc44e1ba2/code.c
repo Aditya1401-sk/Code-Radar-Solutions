@@ -34,7 +34,7 @@ int main()
             break;
         }
     }
-    if(n==0){
+    if(a==0){
         printf("Prime");
     }
     else{
