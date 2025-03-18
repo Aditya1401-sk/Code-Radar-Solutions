@@ -11,9 +11,10 @@ int main()
         if(arr[i]%2==0){
             even++;
         }
-        if(arr[i]%2!=0){
+        else{
             odd++;
         }
+        
     }
     printf("%d %d",even,odd);
     
