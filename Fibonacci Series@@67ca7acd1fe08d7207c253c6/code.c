@@ -1,6 +1,6 @@
 #include<stdio.h>
 void fibonacci(int n){
-    int a=1,b=1,sum=0;
+    int a=0,b=1,sum=0;
     for(int i=1;i<=n;i++){
         if(i==1){
             printf("%d",a);
@@ -10,9 +10,10 @@ void fibonacci(int n){
             printf("%d",b);
             continue;
         }
-        sum = a+b;
+        
         a = b;
         b = sum;
+        sum = a+b;
         printf("%d ",sum);
     }
 }
