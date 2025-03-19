@@ -1,5 +1,5 @@
 #include<stdio.h>
-void fibonacci(int n){
+void main(int n){
     int a=0,b=1,sum=0;
     for(int i=1;i<=n;i++){
         if(i==1){
