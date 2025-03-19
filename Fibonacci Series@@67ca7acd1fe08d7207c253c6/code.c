@@ -1,12 +1,18 @@
 #include<stdio.h>
-int main()
-{
-    int n,a=1,b=1,sum=1;
-    scanf("%d",&n);
-    for(int i=1;i<=n-2;i++){
+void fibonacci(int n){
+    int a=0;b=1,sum=0;
+    for(int i=1;i<=n;i++){
+        if(i==1){
+            printf("%d",a);
+            continue;
+        }
+        if(i==2){
+            printf("%d",b);
+            continue;
+        }
         sum = a+b;
         a = b;
         b = sum;
+        printf("%d ",sum);
     }
-    printf("%d",sum);
 }
